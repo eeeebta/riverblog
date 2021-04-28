@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" type="text/css">
+        <title>REPLACE_POST_TITLE</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light container text-center">
+            <a class="navbar-brand mb-0 h1 brand-font" href="/">rbr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav me-auto">
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link-custom nav-hover me-auto" href="about">music</a>
+                    <a class="nav-item nav-link-custom nav-hover me-auto disabled" href="#">cambridge places</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <img class="img-fluid" src="REPLACE_ALBUM_COVER" alt="album cover">
+                </div>
+                <div class="col"></div>
+            </div>
+            <!-- Maybe sidebar? -->
+            <div class="text-body">
+                <br>
+                <h1>REPLACE_POST_TITLE</h1>
+                <div class="review-type">REPLACE_CATEGORY</div>
+                <div class="author">REPLACE_AUTHOR</div>
+
+                <br>
+                REPLACE_POST_CONTENT
+                <br>
+                <br>
+            </div>
+            <div class="artist-links">
+                <iframe src="https://open.spotify.com/embed/track/2o1JACZB8lpw7lkXlE3QYf" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>

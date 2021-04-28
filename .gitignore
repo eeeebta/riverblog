@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+templates/posts/music_review
+test/*
+test
+flask_session
+flask_session/
+flask_session/*
+
+static/posts/music_review/*
+static/posts/music_review/

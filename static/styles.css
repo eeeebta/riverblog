@@ -1,0 +1,82 @@
+.author {
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+
+.review-type {
+    font-size: 18px;
+    font-weight: 600;
+    color: #535d54;
+}
+
+
+
+.nav-hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-hover::before {
+    content: "";
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 75% !important;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.nav-hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.nav-link-custom {
+    display: block;
+    color: black;
+    padding: 0.125rem 1rem;
+}
+
+.nav-link-custom:hover, .nav-link-custom:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-link {
+    color: black;
+    padding: 0.5rem 0.75rem;
+}
+
+.icon-link:hover, .icon-link:focus {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.disabled {
+    color: gray;
+    pointer-events: none;
+}
+
+.brand-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+div.hp-heading {
+    font-size: 3rem !important;
+    font-weight: 500;
+}
